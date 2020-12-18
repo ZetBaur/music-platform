@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyMusique</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/null.css">
+  <link rel="stylesheet" href="./css/icons.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class='container'>
+      <div class="header__body">
+        <a href="#" class="header__logo">
+          <img src="./images/header/logo.png" alt="">
+        </a>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__list-item ">
+              <a href="" class="header__link active">Découvrir</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">Actualités</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">Reportages</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">Radios</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">Notre offre</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">Les fonctionnalités</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__burger">
+          <span class="icon-menu1"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="container">
+      <div class="content-body">
+        <section class="left-side">
+          <div class="left-side__body">
+            <form class="left-side__form" action="">
+              <input class="left-side__search" type="text" placeholder="Je recherche un titre, un genre, ...">
+              <input class="left-side__button" type="button">
+            </form>
+            <div class="left-side__panel">
+              <div class="left-side__person">
+                <div class="person-image">
+                  <img src="./images/aside/author.jpg" alt="">
+                </div>
+                <div class="person-text">
+                  <div class="person-name">Jonathan MENET</div>
+                  <div class="person-title">compte premium</div>
+                </div>
+              </div>
+              <div class="left-side__title title">Gestion</div>
+              <ul class="left-side__list">
+                <li class="left-side__link gear">mon compte</li>
+                <li class="left-side__link heart">mes coups de coeur</li>
+                <li class="left-side__link download">mes téléchargements</li>
+                <li class="left-side__link note">mes playlists</li>
+                <ul class="note__list">
+                  <li class="note__link">- électronique <span>play</span></li>
+                  <li class="note__link">- jazz <span>play</span></li>
+                  <li class="note__link">- alternative <span>play</span></li>
+                </ul>
+              </ul>
+              <div class="left-side__title title">La musique</div>
+              <ul class="left-side__list">
+                <li class="left-side__link headphone">à écouter</li>
+                <li class="left-side__link star">à découvrir</li>
+                <li class="left-side__link hand">le top MyMusique</li>
+                <li class="left-side__link music">nos radios</li>
+              </ul>
+              <div class="left-side__title title">A l’écoute</div>
+              <div class="left-side__player">
+                <div class="player-image">
+                  <img src="./images/aside/image-1.png" alt="">
+                </div>
+                <div class="song-name">My Way</div>
+                <div class="singer-name">Calvin Harris</div>
+                <progress id="file" max="100" value="70"> 70% </progress>
+                <div class="player-buttons">
+                  <div class="heart-bottom"></div>
+                  <div class="random"></div>
+                  <div class="circulation"></div>
+                  <div class="sound"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="right-side">
+          <div class="upper-slider">
+            <div class="upper-slider__item">
+              <img src="./images/upper-slider/slide-1.jpg" alt="">
+            </div>
+            <div class="upper-slider__item">
+              <img src="./images/upper-slider/slide-1.jpg" alt="">
+            </div>
+            <div class="upper-slider__item">
+              <img src="./images/upper-slider/slide-1.jpg" alt="">
+            </div>
+          </div>
+          <div class="lower-slider">
+            <div class="lower-slider__item">
+              <div class="lower-slider__img">
+                <img src="./images/lower-slider/image-1.jpg" alt="">
+              </div>
+              <div class="lower-slider__text">
+                Les plus écoutés
+              </div>
+            </div>
+            <div class="lower-slider__item">
+              <div class="lower-slider__img">
+                <img src="./images/lower-slider/image-1.jpg" alt="">
+              </div>
+              <div class="lower-slider__text">
+                Les plus téléchargés
+              </div>
+            </div>
+            <div class="lower-slider__item">
+              <div class="lower-slider__img">
+                <img src="./images/lower-slider/image-1.jpg" alt="">
+              </div>
+              <div class="lower-slider__text">
+                Notre sélection
+              </div>
+            </div>
+            <div class="lower-slider__item">
+              <div class="lower-slider__img">
+                <img src="./images/lower-slider/image-1.jpg" alt="">
+              </div>
+              <div class="lower-slider__text">
+                Les plus écoutés
+              </div>
+            </div>
+            <div class="lower-slider__item">
+              <div class="lower-slider__img">
+                <img src="./images/lower-slider/image-1.jpg" alt="">
+              </div>
+              <div class="lower-slider__text">
+                Notre sélection
+              </div>
+            </div>
+            <div class="lower-slider__item">
+              <div class="lower-slider__img">
+                <img src="./images/lower-slider/image-1.jpg" alt="">
+              </div>
+              <div class="lower-slider__text">
+                Les plus écoutés
+              </div>
+            </div>
+            <div class="lower-slider__item">
+              <div class="lower-slider__img">
+                <img src="./images/lower-slider/image-1.jpg" alt="">
+              </div>
+              <div class="lower-slider__text">
+                Notre sélection
+              </div>
+            </div>
+            <div class="lower-slider__item">
+              <div class="lower-slider__img">
+                <img src="./images/lower-slider/image-1.jpg" alt="">
+              </div>
+              <div class="lower-slider__text">
+                Notre sélection
+              </div>
+            </div>
+          </div>
+          <div class="projector">
+            <div class="projector__title title">Projecteur sur :</div>
+            <div class="projector__body">
+              <div class="projector__img">
+                <img src="./images/projector/img-1.jpg" alt="">
+              </div>
+              <div class="projector__player">
+                <div class="projector__player-left">
+                  <div class="projector__player-title">Julien Clerc</div>
+                  <div class="projector__player-subtitle">Partout la musique vient</div>
+                  <div class="projector__items player-item">On ne se méfie jamais assez</div>
+                  <div class="projector__items player-item">Mon coeur hélas</div>
+                  <div class="projector__items player-item">On va, on vient, on rêve</div>
+                  <div class="projector__items player-item">Long Distance Call</div>
+                </div>
+                <div class="projector__player-right">
+                  <div class="projector__items player-item">Violette et Pierrot</div>
+                  <div class="projector__items player-item">Gagner la chambre</div>
+                  <div class="projector__items player-item">Tout</div>
+                  <div class="projector__items player-item">Danserz</div>
+                  <div class="projector__items player-item">Les amoureux</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-row">
+            <div class="bottom-row__column ">
+              <div class="bottom-row__title title">Playlist MyMusique :</div>
+              <ul class="bottom-row__left">
+                <li class="bottom-row__left-item player-item">Ici c’est un autre titre</li>
+                <li class="bottom-row__left-item player-item">On ne se méfie jamais assez du lorem ipsum ...</li>
+                <li class="bottom-row__left-item player-item">On ne se méfie jamais assez</li>
+                <li class="bottom-row__left-item player-item">La c’est un titre</li>
+                <li class="bottom-row__left-item player-item">La c’est un titre mais un peu plus long</li>
+                <li class="bottom-row__left-item player-item">On ne se méfie jamais assez.</li>
+                <li class="bottom-row__left-item player-item">Ici c’est un autre titre</li>
+                <li class="bottom-row__left-item player-item">Ici c’est un autre titre</li>
+              </ul>
+            </div>
+            <div class="bottom-row__column">
+              <div class="bottom-row__title title">Quelle est votre activité :</div>
+              <div class="bottom-row__right-list">
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46"
+                    height="48" viewBox="0 0 46 48">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_22" data-name="Calque 22" width="46" height="48"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAwCAQAAADEbIBXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSJzLRAPhvAAAEgklEQVRYw63XfWydZRnH8d/pupVupqOtg2mW1EUGhDiZujFRFs3UyFtkDFKQiC8zy5hRgxrBoUGcf4gTX2J4MSC6EWFMDKHJdL5E52S8hIUEBGUZJQxkDmjXutat7dbu4x87npzTtd053e77r+d3X8/3ue7rua7rfp7ICc2L/cWAQY9arjB69UTABetAvz5wl7qTB/88Oi1RULDY87j+ZMGn2GPYvNL1HAN6nHJy4O/G3yqUzbigXKnLZEdTkt4KpSfJzHKhvipQcz6YwTxdAdsVWZC6HCleF/LeJC9U3FdFANqL2cBO6632HvUiOnBjyWo1ttb2Qqf5CejQ4XX/Hwc96mbzdWGLL/uiDux3di3wOR5Hn+XFvH6Hq/zI4wZBt895pvTAFyyopYg+4k383Zlj7Oc8W8CdlvmOtS4thqoqeJ2bjOA+00Wz7XjECueUqrBgpX7s9uHx3BuvQB7AkFUKpvuGXuXjypJdmz9jYCyvx4ffjC6LTHWdf+OI+y13rXvAl8os642gvXr4VP36zXO1TrDZucWV72JHhZ/XgieqhzcadsBL4DFLSvpCw4acU2bZqguv4/3Vh+UWhxy2zRVlPbrBP3BDhd3PsdFXsKl6eNQf85K+hydMKVM+hgNma9JnRFv18NFzsREDzqrI9U70qBc/xm2ThTfaia9WaN9EPy4Tc43gVTv8zno/cL3zFKqF34btFSE5w6DDbsIfRdxuSOX4RXXwcx0xVHbmRMGfcKtTdFFsVwUzneEDllnp23rQVk0//1YKWZsXy5Rr8tHsztoM5p6syU+zLiOZloY0pCGNmZlZqauum89wyD6NZUqLN3CRiCbPGWsMuVEVJ9GCTM2TGShTbs1p2ZQtSZK+XJAbMj+HM5RDGcxQDqY3ndmWfdX4/jBeKyumt4E1x34C1Z6KyzGMr5eUOj8DjzjtxOCzdWONIWzQXNIvthddLp88vGAz7hMf141el5XWWm0CG5w6OfhKvGKmiDMdBL/SWlq/Wg9etWg8QsHRDJiRs9OaU9OcljSnJS2ZnfOTLM3WJIU8mPY8lbmZlTfyhTxczJu3595cmDczL31jZppocu8xxXt0rCv68Cns9VazbASbzCqF7pf49Nie1ye5P5dmb55Pb/6T3vSkN73pSU/25bUkSVvuSLIi3Uk+mYdyV9qzNO3ZmkSezGfTNk6NqEe3aeNGfoptuKNMaQW3Fz1/uuLIHvVCC17CnVa40CLv1FLR/Y621p2mV2TRLpwv4hPYNdHpv9i/RsV6v92etc1vbceQhRU3LcWzCqLOc7hq4lRssMz3bfQHO7yo23DZg16xdNRNv8ZqEdfgmdE/K8fL84K3mONdllh0zJZPd9h/NYmpOnHJZMt/rLkGd4tYhccmamC1oqd4Ge8TjfbgQxNZ1wq/CE+J+Bp+P7F1rfAOrBBNuos7OGnw043Yb4a4Bb85nn1t8M9gvZjtgCMVX41jztp+FRcm+WuSH2Z67s4/j2tfk+cbcIlVeHmiQ2JyYbkOh9BtfjX2tcGn2WCPh8ytzv5/J5kLRcSL5EkAAAAASUVORK5CYII=" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44"
+                    height="46" viewBox="0 0 44 46">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_21" data-name="Calque 21" width="44" height="46"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAuCAQAAAD5RTOBAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSKRnjPyyhAAAETUlEQVRIx62WS2xVVRSGv3N7aWktESgt0MqjQIMVWkqJr0BEBwYTVIiPBBKNYHwFZ0SJCSExMUYMMSTAgIEyEARSB1ZiJCIJJAwqKBRaKViVAlIUlFd59H0/Bz296eO2PSWsNbh7r73Ov/699l5r30CGJSOZwmhiXOEsbYN6GlVn+rHVdtgtrVa5zqkD+UcDLfZbe8qV5KjDnU65O+DANbaq9b7nMfW8S5yr7vV1m1W97ZvDB053l9rkKtPcqh51nPiK+om4JMl8s8FwgGN+rZ52hviCes5cET9Vl4v4lbrTRnXLcIA/VOvMFbNsNOGC0P69OkvEWWqdhV5Q344KXG6H1ywU8QN1W3Llgq3Gw3G1OsNyW7wd+g4JfFBdEWb6H9udHNrHqMeTXhvUlWHoiijAj6nV4ZG8pO5OrjyhfpmcLVc/E9M9a8KibntswMpZCWykqzCXAduSKyVAbXLWAEwC2thMwIqhK++CrWaLGLfJa8mc4lZ1UXJWpP4oYr5a022PD8A3nwLkBLX8yk1GUUlHL8Y1yVkrMAKAi5xiNtncGozxCD/3dI/O0GK1213jM+Z7w397eE5XfwjHFeq8wRm38wYwkocooYRSSiijLLl6gy3UhLsZC1wN7ZeAcV3DgYC7pIVjHAvH48IQC5jJ/bwbbvcc/wFZFFNPJwkgGG7b7Na16jqfd627reuVrOOeVR9PlYocptDBH9wZZBelwH6q2ANABsWUUkIJJcwB5M++jF/2SBi7ze98eEDGdSbCa9hXc3wy2U3obo67Va2zwm+8qHa6JuXHGXZ4JkrKun52qL85P9ksX/W6+k6KD+aqlVGBn1Xrzem1MM873nZivw9eUz+KAhwDVgOruNLriI6ygSze6nd0vatuMDHDds+niDlVPdTPuk99MArjOBOII+tTxEwwNQXjFn6PxjjPTgeSk3145KpHoxVSnMvM54HUMTmRIsO1Q3IFIE4WGykgjVioQS/oBCKddNLMsvDoFrOJtH5Ix1naGziNfMbTSSeJUHtKGgEBMdJoI5NSoJYcClI0r0v99jsMPaKOj+YbmMkeJg59xnzBJm5yi/FRc5zOHHIjeM5gOllURYOFODeYQHoExq28SOQ70fWCJGiJ5Bu9nOn7NAWMJpsYLVylvZ9v6XAZB8zjKR6hhMJkUuQy9dRwhEM0hLYiOjkZFTjwPmopDMEa+ZtbJMgkh0lkhT4N7GUPB1jIGCqGRMxjC7Mpx0K10dU+amavmxg42SWutyp8MK+73edMH/T2FrneJlXzAws5w36eHoTDGBaxlMVkA9c5wC+c4i8u00QrMbIYSwFFlLGQYqCZVkZTgNPUfRFqaaRL3RXySS0Jf/Z9cz2o5sfD7A4tLVRSyQjKKaOISeQyigwSNHONRs5Qw089X6E4QUTgLmnnMIejOMaiON2NdDEuZcc9xCwGCMyjcYi/hsOXNiYEwjTy7jHwJRr+B3RLG9p8qweSAAAAAElFTkSuQmCC" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48"
+                    height="38" viewBox="0 0 48 38">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_19" data-name="Calque 19" width="48" height="38"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAmCAMAAAC1U+gzAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACfFBMVEUaGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4aGh4AAADmzbqdAAAA0nRSTlMAEnC76fv65XkeA3by0ZmDhp7O/vyYDwu3rSwdj90mZZfeo0E36OQcdWT59KqBgueoCivxx2yrFAS8V24g+AFUgLrrDIv3Fppv6tCyF/bF3P2Npw1RW4fhPQfVr9fbG8FFfPOshT48WsykekzJnJGK2PXsy8bgBUKJyu3AlksOHy2MTqXwVUdyts8kExlh7820ne6/KqkJrkNmEScyoIQlYH2f2TtSSpKisQYoCLl+MQKId2ptMOZfc3gilHRG1inCyOIQLt+Vtb4008M6cUlYkEBZzO4nAAAAAWJLR0TTl9+eJgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+QKCxIqKwDFLuIAAAMgSURBVDjLjZT5P9NxHMffNhu1sfiOObalOdIcuc2xmaPlyJ0KSVYiUQkLXZQiHY7o0kFIoZJOukP3+f6L+q4v+34Xvnr98nk/v9/X63M/PgCzsuBwLXl8K671MvgfLRcI0cZWtMLOnhA7OC7tlzihswtVukp5MvmS/TuJV4LcTcbjr1K4g4en1+olAt64BjhKH18/f8VaDAgMCg5Zzuq3EDpDKIaFG2sVhx+hisQo1gAHXaLVzppZikEtxMbFswW4NpCwTmfC9WpXD0xkCyTZQnIKjRtSpZCWzraKDH+Iy2RwVnD2RsxhCaRugs0OQHe5Bb01ybLcxQN5KZC/dWPBNtOHwqT47Vhk5tEwwUEvyUHEHYwhdkKYunhXiUCaxS1N9xTyEYnkYsb/3WuVZaG4Z+6DJETtkIdG6WXlTgEVe/eJ/ET7K03XMvwAVgWBprpGQoLhYG2dGLH+0OGoI0FHGfM4hpw5v6eyTEW2DbxGw/ETTUjYS09G00bdqebDLaethDzyQGcVkNr6t3XjJaE+q+QMbT57TlFDTux8W3uHdCcd2NB5gdyEru4Mght5kXa7etcRGHfJ+3I4xXQA1uCVq25ipW0P7VbFxGagfdE1xnYyAprCYE/iuiv9z1HghV43bs5ha29f3zk5I6C6hf0DtP2qqAkLB00nf7sOKQ2Ztp2LdwJN9kDr83jXw4TDHdgf1TM8PJJYgIpRqv97eJ+eXa8XOj2gRxvLJ7QqqjSIkGswFg8ZkxsoxVJ35rUZx0c0PEbjpX4i9jVtuwKfPjO7ZrrKLCaGiUcA2uMsZpf+XMhPyAYzTRCTTLxJvIBJ4iUFr15jxBv4R2+rzfndexAop4zVdAvODMI8dQ6Z8weEj5/I9rMvEWw9Ot8PYn9zvoEw82G6uQr1tWdgIdXPH8GHPMIvzVOwsL6GmHN5Eqi5JdGwqCaIVibKCQWotcAiXaUvE53xG1hWsAXIk35MAwe7ARIy7LQs8heiyEDZh1dgHrlWQ2YnLqF0TlfuaNB3GabRD7AbYtNia//RRuWechjv7dhPwSQsqobQxl/jv6lb/gckgQ/0gxGYuwAAAABJRU5ErkJggg==" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44"
+                    height="46" viewBox="0 0 44 46">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_23" data-name="Calque 23" width="44" height="46"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAuCAQAAAD5RTOBAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSKxXYvwIIAAAD1UlEQVRIx7WXbWxTZRiG77NWV6vtOp1uCUsmBIEEoxgmWZT4Mb9tpgQiwgwhiIs/SPxh/CJxLjEmxISQiAIC4ndigm5ooi6LCg6Mhi8Rp5P4Y2NrCtvoOkAU17W9/NHT7qzt2p5S3/fP+z5Pe/U+93ne5/QYqIjh0RzNVL+O5vgM9mYZS/mccQACuT5pD3sfxwEI8xVxQqUBV7IbgG6W4EBESwNezCDQx6OpSEnAa4gAH+CxxEoAfg2I0JIWvUSwwVZgjLsyMgnwRn7nBRx2wQbbgGEWZMklwN8A0IHTHvgtYIh5WXMJ8EskxmY74FeAEDdOk02A7wR+Zgh4sFBwC3CBW6fNJ8BeIMgS4CSuQsD3MEEUf47rSVbFAFBJJ7A+P3g2YWBdTv+T4C6ggZuJE6YiN9hDL7AlTyEmwduAlYh24OXc4M+A7zMLaBrweuA5RD0wTHkyX5bRR5/VMgW1XNECe/OwpGpJR9St6/TEdP24gQkmuC2PWqvipcCO1Opodisq6AeeLwA7CW4C3kMIBwGgPpsVb+t6dWmjrceUQ1JMkhTTLklrM61oBkaoKUjvpOLHLRVUR5yxxA2cVFyrLZJaNGTzweqW9I+5HtA++dQkyQJ+Rz69qy9sYiWfpHOp3UeSmq1WrAEGpjwhCrViA/B0KurlIhfxJq2o0SZJLfrLosSr+bpdd6hedXLmUFwr6XRqd15fy6WmpOJPUyXjZDGtdHIa64jwG+/zFHVZFP8EzLfEVwAdyEDy60uNaIEa9JgeVoXpUFADGlVMbtVoljymoh7t1sc6KSmqs6qSoXO6QldpXNLVKldI5Qoppirhog/4kzAAUQ7QRiPeNEdnspLtBACI04XfVHwT0MczdDIGwDh7CQJNos283BjfspZr8tyyRWwmZH4jhGi12HWCY5w3dzvEKSBAK7UF10M5q+kBgqbDZ3iTu82+5sTPj8Bxg/vlU0fBvSw5DPl1Vj9ooW7QHo2nZVcoYODSXBm2j0W+0S8+5P8Yh506plWSDihSMrWGGjVDODgEvG7jMOebZcCwEHP5mzgPpaVns4HtLMcoAg1nEosngVFmTanXC6ZbO4sCjyaXO4FefKnUPmArqxgBbikCHE4uL6cb2I/b3IeIcxniDWB1EeDQ5KaSHuA7rkz1rFd5gEGgwSbWAQxZA9X0AoeoQTQSMT1ut63XDQxODVVxEDjFvYiF7GIP6/L+I8qc1wJ/pAdd5kn8ZErztjcXAfuNLK+8zdqkakm/6ojGbJ87tx7RDLVl/00PL9J3CZ2iHZeR4yV9juap0nbn+1e/6IT0H2eqhNkb11NoAAAAAElFTkSuQmCC" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46"
+                    height="46" viewBox="0 0 46 46">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_25" data-name="Calque 25" width="46" height="46"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAQAAAD9sOO8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSLAT9TrQ9AAAEg0lEQVRYw62XWWyUVRiGn2lL6SJrAYkUiiQk1ESEoDGiAkZTDJtQLJYS9UbjAonRG3vHjRcmxmAMxpjgBS6AyCISliaQIBHUmBRQSTQ2LAW1LC3QTuk2M48X/Wc6020G2nMu5sz7f+fN+7//d875DmKpNV50q+NkSH2BP3nRjxwZRzDfS3a3g0OinmprwLO5h7xMPW6xTer4PlMetMb3e7Qk+hwrzU1BNqhfWGrMmz3kz6tbxDq1uA/JcVVrzElB3zKmfpyCVavVYsT2OJbF4O0R2jlHGRuTsKVsIgKsTDOXLEz6Z5/nI+lgFR1UUxogo9lCiPV0MjEl0v5GD6v1vm2nOqGPLU1GzXGjuidA3lO/N0dtSomsUmvdqIZ7PMfvjbe+5L+qMy2wyZjFYoHNdjnDEvVMSmSepwOWcLLnq3mFD2ns17Za4Clus4sQa4EVjOIw55gHnE2JbOdJ3uEDYilWBb2uX+Ur1GPiQvWUuE+tEr9W3+g33yOptgxGPsJGoxYb8pI63w5bLbTAsF1OTEeeLhW72E0WlcgOYCu57KeVZRRylGvpUjGdclyk1opzgs/1nLhXfXmAbeAObMEsL6uzxLPqDXMdY7ttjkpPns4WiPENUAUcBPbQySpGcoCWtDMzUI7z1L/Fk+ozYo26esDd8Y5sQfxTXaM2mO1Eu7xlXibk6W0B2A58CnxLlApy2Et7RvMyUj4zyJT54o/q4gF134Ut3XvMBUOWGPOK2ZmRZ2YL/AzsQCoJUUs0w1kZKj+vzhZP6yA5flfKH2M6Z/mNUh4C8ijPTHhm5GuBncEvdC+pYbIl2wa11Z3WB1kTcdJw2bKIe4ECKpgKNHKUbF4YLlu6zfiHwwAU0QCsGx5bcr2h6h+Jyuy2qjOGw5ZnGQvATIoDJD/Tj5qePJ4huUBNEp5JxqSxpTBRXmrM6f5nT5szVFuWU5AYn+ACOwGIciEj7WmU71Orfdfr6pvio+p1JzlLrTc0lF1xnB3edpT5tiRKiTp1rnhKXTAUW8rJ5QAtLOOeRCmxPTBkG+mzfVDlR9RycXdSKTFLvWTIYqM2OiITW7I8p05OCZts1FvmOdo22xydwE+pC8Vj6vJe1DlGDMevCllAEZ9xg/uBi+zngcRLrSGLvbSzkjwO0ZzAtyUZk5wxJeygmWwKucVXTAHM8YwaMaJ2qDedFqg4GZyWh9SKJHXFxmx0hOODyjH+8f8NGGJ2quctxLlqvfdZp5Z4SF0v4nT1ijlOsMtm81Ne/gd1md2V/boAq1B/cawRwxb5u7oYx9qsnvCmWmNEfULsvkBtFl9Xv+zl7GvqNrFSPRBgpUaNediYnR5RO5yG+LSXE0s67IYg+LT6eKBySS/y8XYattACW+xKGFNlU4LnmuXxbMm1zKvqS45JnD4aNuQUY17vJ+H2q69aaEPK7bXQ5UZtd2m3jQPn+V/q5x5XP+lnHS5VY4aDe0dGy78oKagsOBTqemV/vG/wqhEP9nkasSU+DiUujZuYTVlKuVPCEpr5jtYBl3d2P+XRLtp4sXv4P3RlEqhB1BRTAAAAAElFTkSuQmCC" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34"
+                    height="46" viewBox="0 0 34 46">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_24" data-name="Calque 24" width="34" height="46"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAuCAQAAADnjAMyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSLDo8L6mWAAADNUlEQVRIx63WWYjWVRjH8d87M2UmjjBqA9IiZJCOjs5FLhVpJAVdRCBGImW0aZTQhVBamNJGIZS0XEgbhSF0IQgZbUbMRChGIZp5oS1oGZmSijPjLJ8u5nWcd5b3HZfz3Pyf8z/P9//8z3nO75yCVGhNmZaD2VZ2jHI2yQ7QaUS5cTVl+Jfny0zMtnyWvWk/t0zmetoCEffh/X5vp1hhuerS3tIh1TaD4yLWYmHJ+zqnweRykAfxg/tNF7EQn5Z8tWC1peb1z77U/QBz+uS1HdvdXvSvtFnTYBNb6j6DTcb0+mNtBetF3II9GipBau3GsZKZmGs/Fov4EB2eKw+JWq9q01GclR6bjs+Lz0v8jSXlIRGP4IU+fj2ae73GPsiiVQ1SOtcmOdnrjcmbSZ+yn5HkRLliq7HFQRw1QcRT9mjDz2pFvOIA2s0u9zsj/e6UraYW/Xd02Ofl3vXaotXXfYqgaIWKu3gYrerCERcJUpOkLnNSOM/47jTnRMR7LqSt6xGl13PoAjL5KBdndXrk8ZK05JrziN6d+cmZTMbmSDpy9BwR41KdqkhqMimzMyLJnjSdI+RQxmVx5PtoLs7ycYWyx8dZnf3YLDFaVzFyW1Xa05qV+TGj0zis7y/IosxLcmOq0pJVOZ22qHe9WIbnh5VJMxrFBiwQk40/q6atDhtZEXE3WsRYJ/3rsv5S8BaerYCY7qhOM8UbWDtQT+od02bGkICCBxzHcnGrLn8aPZgoLcZvrhoQPtIMK+xGq4fE9f7R7c6hlG0dDphS0vdwcSE7feI6MdNfWDW0PBasx0mP9zk852ux0WMmiEut1I41lY6MR53CL5apK+mv96Rf8Z9Fw9HYG7IjSdKdXdmbIynkijRkSgpJutKQfQMiBlmHt7HBS3bp7pWeTjutsREvDowYiGjS5Q+jRIzSaJ65GoplWOeINpMqQQq+wz1DVstSbK0EWYKvytRslZ24qxyk1mGn+1+m+tks3faf2TWDQV7rUe8K9i5WDwWZqqPvjhjSxjvmlImDQ77pvRFVsieweTDIvfh2WIio9hPuGAj5Qqdpw4TETbptGgiZ5OZhIyJuc/WZ5/8B4wVRdObuzdEAAAAASUVORK5CYII=" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48"
+                    height="35" viewBox="0 0 48 35">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_20" data-name="Calque 20" width="48" height="35"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAjCAQAAAB4SUE5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSLSTfO6W0AAAEw0lEQVRIx5WWW2xUVRSG/5neC8gduY5cJqIkRhTEQiqCLQHBhCCCF3jBB4OYikiUVCQMIAREo5CWB0so5cECoYkg2hhCHNqICihF5dJCyqWgdYqVW9uZdGY+H+Zw5pyZM1j2zkzO+v+917/POmvtvV0ooQ1RvkYpQwGd0s+K6P9bhiZprPorqEbVqimBxdoL8RMl3gKspju6R+/FRlqxtiNMs46IP2azE2jiQ8bTg3SGMp/9RLjExJTun+MvIlQxh0G4yOIx3qMR2En23TEuI0TZqtaz2qg1Ctle8GlVyKOtBuoyfrH/HBXpohbquCSv5uqK9iiqDK2QT7V6XkFriMqJstBxlX05Qap2kt4I4eU2ACXGnLmE2WENUQGwznR5t/kMexDX+TFB1sUxWhlqWCsAD+W0m/xKYGpc4Hsuk2UR8OOzCIglQIFNYBaw1LReBcpp5IyJpHOew3cFBgMrLZNjrq0COdxmu02gkjt0My03JbRzhvGWEcuJMjgmMB94Iik49kAd5JxN4BrViIk00EEpbhOPI2OAeShd0jBJ9UbWHJFfkl/SGknSagOvV6Elt7I0WPskVcilSi1RjfYYTBypkjRCSpc0RDJSSvLLZzz5bAIhZVgEMiWFJA1TpdZrkTwmE0fCimhALE2/ASMfUoeonGZbDgXZhSgF4CYjTCaO9AP2x0LklTROV5PCEg+XlKc62/7yu/IkFalGHu3TRbPQ4sgswzMuQsDee2bROOAt20deDUwwrcRCE2I30IZiSdpIhLEpC018yw162gSGEOSQaSUX2uOEuQwMEHnAPK5y2nThM/oUwx7JVcIstwmsIUoAb4pCe4A/aGIBMF68BIzhGUIcY2CKXTOLLcBrpv0GUEmPFIX2ID8RJJ8ngdnibaAXYiZ3aOFNciyOp3KKMHVMRuym2dhOutFKDW4bG6/5xbRwh5mIgcBisZ6gQT5CDXCLr9mMDzGcds6ygXO04WE0MNPYK6Egge2Nj80c4BZQw6MIkUYEn/iCJssKplBGA2EiiHeN+ngIeAfRwvsIsQrITmDTgDANlJlfTogA29LVX9ctGe6XX1KxNihHWI6Y2Lm0SZuMca4ENlvSB/o44TxuUV/hj22rtv4CUIiHNurZSAO3GcpoYDs+fOxwYKcDM5L81HJInKTKIWuaqSWNyfxKJ7+Qj9jLn2QSO73/TmDT+IFrZCT5OchxcYGdDon5MrCbBwwrmxJgvskusLE92Qu86OClknOimVLH3P8IaKWCtZTRTCdFNnYZYVqpYB27+BdY6+ijjKZ05arD8TrlVauqNU39FNB3+lS/2djPdFjLVKj+CuiA5sjr6COoXBFig4P2SMIpVuXUPyHMcEe8za0MdTpoL1VYJepq2yJU5IB3KtPtOKG7FulLBbos0KQqva7cJBy53bqpPknEK+qhbV12L0ml6qV5SWgf3XBxVC5NTCCOqKfG3peAVK8rmpaAnVBQrCJqXFri+5H1UtXVXkyUSTbkKaBY9OMf6hllwvm0cDp+O+5y78Z5mskz7Ye5wHX6upAK9JUyVa3jkvI1Xec1XZfuM0CS5FW1RqlaR+XSBM1Qh2bLH1MbzlbO0kGIOlaQe9+rj79FMXW008FZPseD0H9F9iNtPT6WAQAAAABJRU5ErkJggg==" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46"
+                    height="45" viewBox="0 0 46 45">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_26" data-name="Calque 26" width="46" height="45"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAtCAQAAAB7JJESAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSLgjGzpqUAAAD9ElEQVRYw7XXe2jWVRzH8e82nbe8TdKJKUtNTShS0kzpD4soKzDsBomXMgQxyPqjhIqsKCIlEYKUhZKYRSVRIJV5KUwtuphl3itN13SWNls+U7e9+sNf2+P2XOa0c+DhOd/P9/s+5/f9ne95zlMgLmorjtNNg8KLBO0UD8bH8Vecipr4IEYlVhfe23lElfR2xnThIsBH2AZ+MNsgxQZbijpjLxw+x2kcdK+CNOsSrLsweEdvgmW6NVNKUadD29G9bELK1IxqDUrbir7MDhwxOqPaHfVtXXmZX7DPwCz6JGxtW84H2I+flGb1WIMnRUGzCu0b/aJ7FEYqaiOV9tnUSmNjDI4dMT6qshTUuPgiaqMsjjTNNtLSZqXQ1BqkHFPhZ9tVYk+OVbfzHeaL/9Iy2icJJmW3L22x1S4HVPlbXYupDhqQI2nPouLs5gxFyjXgtHLXKcrg3l43fZQZ7iscMzwH+ib1uP3sKFxif7Kibzyqb47AF1DrhhweA/2Bhf+NQyg20TtSoN46M/TIEDgVDe7LgS6xC59plw4/27uZZk2S4Vrvu0fHtMAxavFUDnQXW7BHryZbc5dSc3ydpKnaG25RJPRRgZU50J2sR6VB6dbMrkPMsyeZ4oj5NmCrTjlWvQ5/uupce65KHGWRw8kUx7OWeuhmI44Z2VzJV+pFngZ3ZvXoYyuOuqallg/exT68llUfYh8qDcuk5oMvxF6ds6jj/AFWZ9YzGXt6QLnpwgh1GrKWzWQpVGF96+DXWqEWvCJ8jqUZAwu9BN5yB7bkh19tQ+PhVKfMBPytd4awEh+hwTPCOHyfD95VFVIWexsfCpvwXIag0fbjhElCGInd+eAP40e9he242wicTC/mJB1zncFOVyaW4fgtH3wtZgr9kdLZAixv5j7U5iRtTafM5TiaD74HJ3xqVfL2t2FimmtnzzuFPy05JxGlqMkHn62y8XW+qNBpGk/3DmapAO/pq4NqXJto3VHXmq042DTldpqiGPTQwfXmOwJ2ui3xW5Zs1RCJZ/vWFtHZvhNnNCTPsteMph8BN6NCYTKqp8WFLg98rAPgsOVuVWSC1SYnWpHDuDEZ1aDP+cFD6K2HMNxT9oK5jcoivJ58P4qy84V3Ns+7DqVdKsY2amNwXLEQDmHo+a/8KDhhlRX49Zw7+L7GU74SV2SKz/2faHNEvBwlcVeURUR5pN/9VkbE/RFRED0jojpjfM6VP463hOvxT7OjYBhO6qo/Tp7zTK1My1j8bqHjeLWF+i2mmYLNrSmi5r04uSqxWc8W6mP4xBY80RZ4mGWtxcZn1Pqp14AaJW2D5+7rwYJs+oXBH0K1S/8feFcHzMyu/wulxQQv0G2n9QAAAABJRU5ErkJggg==" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48"
+                    height="34" viewBox="0 0 48 34">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_27" data-name="Calque 27" width="48" height="34"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAiCAQAAACzFZKcAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSLij9oLpcAAADs0lEQVRIx62WbWiVZRjHf8/Z0bkdNUvBt03TbczNMizEl9QPRmUhhVgo+GUgxPZhQRaUiFG5JEpSMMikEl/QSBLRGgUlNYsVFuqKxCwdWamZlts8ez3n14c9zu141LPDrj8PPFz3ff7/+3+d+76eO5AbRIT5TGckt47LHKWO9huMmh4z/MH+xHEfSM8UpHVQyre0sobPac3AQS5zeZk7mcd3mTkY5GEvOVn6gVE2etLY9SPpJlerS/pFjzhPfSUTgdv9xy/6TY+42zYL0guMstpqx4q4Sp2ZlUCpujHkq3RltxjieH9Rtc0NzvJfP82KHnG7nc7xVZtU/cvSboHn1TlO8i2b1YT3Zy1QZlxt9V2nWG7SjRIBTgMVPMwRDgIH+CaDrZk+jrMTOEQ983mKgF+7t2nEN2wJD0ynDZaab575WWCCX5oMmeJucfC1g1bGXqbwND/xMfk0Y1YOhgNPkMdWzrKEw0AocBcfMpkKPgCKWURBliU6z2c0AAvZTTNLqe8u0Wz/87xzs/5r0+Eef7PDRwTHeNZT/WwMmWC0R2y2GNerdw84PeIE292Bf1jbkxo6IMQxg/Bti/EI4/kegMc5xjn2My3rUwBQxC7OcYIKAH4kN0qSCPAQ+/iZXSzjGK+zlpbwB1EWM/Gm++Yj4j1zn6UG2E45W0mwgxySmHCtWGejMXGs76iNLg5Nbrrlt+wTB4m4wAZ1j0VixHobDay2ExO+JHb6Wk8NF3hU3WaeOf7tPgstsMDC8Ln2VmiB69RCI76pnupZFlapd1hpZxQIgMsU9tg+yL2sooY63uM8wzhzkxLl0MEFHuQZNrC61wd2HNBOBKJABNhDJTupD1tEgm3UUALUsYJJXLoB/SCWcog2SoBtRLgtzJezklquEAVMuF4c7TG13bYQmnSuOFtN9mRT0akuF8ts0V55/d0S8Tm7AuOcZiqQzzKmE4RraGdv2LYX8igBAfZ6robUswuAaSwnBuGME+zmIvAVM/GSusNih6Qcl8CYsXT3hBTkGzNmTkp2sBPdpF4MvECccURpz7JFp4+AXOAkY6OcYATlLKKol/WBiDPsZTM5+KT6tiMHvNUNd51aFQhbqQDifUokTeQyJMPVdtDKMCJ9cjHgAI9FgUYSvMAYcnoN51LFEb7OUOA+5vA+TX0W+CdrOAOIL6oTUgyOU1dnXI4VanlKboRX3Nx9L5pqi9rUB112OCtjgTIvm7yOoct5V28VM1hMfh/Tbf28H01nCUNTGGqpg/8BSwzt+ecbMREAAAAASUVORK5CYII=" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48"
+                    height="25" viewBox="0 0 48 25">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_31" data-name="Calque 31" width="48" height="25"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAZCAQAAADdqGXyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSLxW808cMAAACzklEQVRIx5WWXUhTYRzGf2c7c04dVKRLgxK6CQoKgroooqvCghKCIIqE6FasqyKLICq7KPq6CITExKBIqIi+6AMyF5hQakHIxIqIVJQiW5ub29OFbW7n7Jz0ORxeOO///T/v8/94z4tweEK6qk7VO85nnjq9VKuqneadlnnUo16d0y8ddXV/QDFdUKciCsyWYL4u660+Kq5KoQYNyeNC0K2zQgENK6JeXVOV1cJDPjy0sYUOnvObODCOiRdneBkDEvyki5us4g5+i4WFcYmiWim0QuNaKFSnL/K5KOjRYSGfPmmT0CL90Wp3BQHixIAy5gZRAiSIEbCGJIN5tDPIM4rRHJ3no4NB7lJlJ2hmDcc4Q9KmavYwgIscoZxbmNOf/g2UsplthFnMKQyL+KRraKwET+inj3dU8nWGIEQImARKbA5MqkliINsL4LcFNACkSVBNkmEwKaeN9Ygg6QI7nKSSPhcFpfwpqKuYB0A/e02uEKIGk3vZcOWiiFG2M+VI0G6tGgC8TLKPUZpoNdnIYcL4mLLEPmMap8dFwYRDG6Z4wwineWzyikMMYeIrWJ4pilnrkuYgqYIh8rKOERoJm9RznUeIYDYQuUoSVPDUNQexAqvS+GlHvGevySg1hAjxMis2V4mf72wgCXm1M4OH2brLnfEQZweR6SoCGCGKgQeIWfZiMMVnFwWTtszFgTRFfGEYZhotymsucYJyPJZyNfC55MCTtcqoWE8FBxmYdj9DIPbTQgs+igr2gxOUNwo4SYIIu0jkE8AwW/GznBcFy9UJhmWEnXQTt0vMRPQHfrxAdI4KMtkr5leue2zd+40ebtDMUiAFpP+jxyDN9Nmzg2XsZoiBfAMrQYo9nKcRkwBeoIy0a05EEDAoZRe19FNrO5scfoUBfVCnGjWmJtdbRYMmdFz39U0L5nZtQUvVprCOyfzPvahBXbqtlU7zfwGigeohdLdxEAAAAABJRU5ErkJggg==" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48"
+                    height="31" viewBox="0 0 48 31">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_29" data-name="Calque 29" width="48" height="31"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAfCAQAAAAL8YbvAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSLzYetLZ+AAADeElEQVRIx6XWW4hXVRQG8G9qRpMpu1CGmpbpg0VlhV20EsqIQtAKQ+pBApMeKrsgXUAiS7QLGNJDBF1IFCwsSk3TvAQKphllGhZlF6FJi4xEqXHUXw/+Z+ac/2UU24sD56z1fXvttdbea5/I/5JRfvC37vFwNaI5jUdTxqd/kkOR5jTl23xaBzU0u7M+TUlOyqHsqLH3sLoW5fFdXRQbeoqxpwg6cnnOTfJcrs4dOZCddVGrckuaouEsx5HnCejX0HotbjqxCDrHkvyb1dmSliTSVHqOpCnJDVn7fyIY6B89j88as4/HwUYcNEQvvaskznMQnHXiDiZiPcbXtX7hiMdx14k6aNJhj5Oxoo717UqBeed4izwqozM8rdmTbVmdXXk5zbkzh/Nzbq0p372ZnDezNsnXuS2zMiTt+T4bq45jwdtkv1QV7wO8JuJZDCmt7SJsF8N8WMXa64HaFPW1GofMNlKrFv2M8yqYKeIaPFVK3V+I28EaTNOij8vMsBdfGVh00Oo3PFOVvyH4Da9XWsLXBdtKnG0ithkoWF6wTkOHQd0OttfdJfv8q9UczBDr0VyxzMDdhuO9imYrJe5o/N7pYBbuq5n+JYwTsQHNxuIqEWMwX/BLF3o6RpT4t2GhRGtV8EelPz6vvJ+KtwRzRR8cqCxraBf+EsypmmM5BsRUjKlxsAn9u76W4TR7/Ci2YFhNTeJPP1XNcT5mxbqq7DV73id4tKAbjqHu0GE+HhJjMbXEW4J5+pZ07XbHYb+Wtt+yym6e6jIjKnIdnnYzWCTiSVxcyvgB8KXeBe06gs0F1TnH6JvfV3CzMaDAW9SFuKTcSpqTnF442PvSlgFJkuVZWWkkR9IrL2RzFqQ9iyu4f5L0KfA2ZlIF21bQnpHEDodLeRtuq/0WlnQtmFLS3IMJpdS+Yr+dRpdQf+iImbigqv5nVH3Pqwo9+mHpMVitWBCDsbhmm5aFthrdZpzcI+tFXBnxMS7vATi360wX5YpCo6gn/fHN0VbRinbnNgBOanDZxBt4pAGrt10Y3NnsxuCg6+sAH2v4wxVHG+CsOvpLtXVeo52qm8C7bnVmZVcMMsUObHJKD4n4CG0edGGlHn3d6E26b+lu6NkWV87iUu9bZSd44hjlj/sdxi5rvG+JLTqwuvv2q4aPLJzaFcecvFseKfCmFy3/AanvU7Sh8jK5AAAAAElFTkSuQmCC" />
+                  </svg>
+                </a>
+                <a href="#" class="bottom-row__right-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48"
+                    height="48" viewBox="0 0 48 48">
+                    <metadata>
+                      <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                      <x:xmpmeta xmlns:x="adobe:ns:meta/"
+                        x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                          <rdf:Description rdf:about="" />
+                        </rdf:RDF>
+                      </x:xmpmeta>
+
+                      <?xpacket end="w"?>
+                    </metadata>
+                    <image id="Calque_30" data-name="Calque 30" width="48" height="48"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkCgsSMBl4P4W5AAADAUlEQVRYw8WYT2wMYRjGf7sqamlVl4Nb6Z+UBD1IiDQSJxFdEg5oIkS4EAnRU0uERNMgRCKrpOJApERoqIiqrvTQC6n2QINtWnryLw2tP2Xt47BjdWdmx053N30mm5153/me53vf95v32x1EwjFVhzWoTOCr7mqh8Ihx8HCTjfTwhCjpwk+AMVYkzn+tpEZ5TFFN9Fimn7qTaDotaW6G6BFq0ag3Iax84EPayfmHj8zwps/iDC/goYozVGdHIIdp3KQKaOZadiKoo4qzzGWrjbfWoYLNCXfeMqxhawQ7eMoBZCsfohFPkqm1J1zd4D0Ary33SboYn1aTlMFFipokLxAFjnM0GxWAHON7HRGOWLzTWZQ0RfZ4x5C9gD3q2e9ywiPkuxHIA3a7oN9OZbIUJUeTC4EVVoFUWsUcevjMpiS+QufBqQgEWEq+bTXK6KWXknQFOhkGWoyrWZyiGIBSQhTgJ+Qk8f8aQD9FFDJo0D9gOZtZDYQoIAC0EmK1tUmkHgF8SaA/j58Qj5lNgA46CDhF4WY/iNHvYw8b8Bv0AI9Yj5/gxFOUSH8OeEglUXrivnYq+Z2ewHh6gG6TvzvZQGcBGZ8YYvQDFLlI638ELhOJN7tOY8cLGovUHpb9wFmgiy6L7aSb+btbRROCcwQ+Fpr2g/H9vpyZlhEu94NjHDRZhuPNrZQ+mxHD5ubnLHCWPlMEA/GzMFvIs4wYMBucBYa4lNQnrpMCJrnIRayxbPriPm8BL9WmIkdoZtSdwF5qbKz11AELuGLxfOK2O4FDXLWJILZ6wpSYivyL525TNEavg7efFDDJRV7FNlOKwjQYZz7qLUU+bn6O/wmE+WkjsJJdJsuruICfnaYaRLhhFUDShaz9ur4keRkjN2sF8PHDyxvK44YRRjIqUM4AuqCo5hsh5WpeBhNUJimIKiS1akpGc49QjtoU1WKETkm6p+KM0pepTVJD7GXIFBqoAZ7xkm9J/g6mDg8+yqlAnKCW6F/FCjWqT98z8iLnu14oqCUx5j85qLlyx6UHHgAAAABJRU5ErkJggg==" />
+                  </svg>
+
+                </a>
+
+
+              </div>
+            </div>
+
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__text">© 2020 - MyMusique.com - Contact us - About</div>
+    </div>
+  </footer>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>

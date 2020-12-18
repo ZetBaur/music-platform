@@ -1,0 +1,26 @@
+
+    &:after {
+        content: "";
+        position: absolute;
+        width: 120px;
+        height: 2px;
+        left: 0;
+        bottom: -2px;
+        background-color: $red;
+        display: none;
+    }
+
+    &:hover:after {
+        display: block;
+        animation-name: title-animation;
+        animation-duration: 0.2s;
+
+        @keyframes title-animation {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 1;
+            }
+        }
+    }

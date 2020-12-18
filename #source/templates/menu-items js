@@ -1,0 +1,6 @@
+
+	$('.header__link').on("click", function (event) {
+		$('.header__link').removeClass('active');
+		$(this).addClass('active');
+		event.preventDefault();
+	});

@@ -1,0 +1,271 @@
+.left-side {
+    width: 350px;
+    // flex: 0 0 350px;
+    padding: 0px 25px;
+
+   
+
+    // ==========================================
+    &__form {
+        position: relative;
+        height: 80px;
+        background-color: $black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 18px 0px;
+
+        &:before {
+            content: "\f002";
+            font-family: "icomoon";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 28px;
+            font-size: 14px;
+            color: $red;
+            cursor: pointer;
+        }
+    }
+    &__search {
+        width: 230px;
+        height: 35px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        background-color: #202023;
+        padding: 0px 0px 0px 25px;
+        color: $font;
+    }
+    &__button {
+        width: 40px;
+        height: 35px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #202023;
+    }
+    // ==========================================
+
+    &__panel {
+        padding: 15px 15px 40px 15px;
+        background-color: $black;
+    }
+
+    &__person {
+        display: flex;
+        margin: 0px 0px 40px 0px;
+    }
+    .person-image {
+        width: 65px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .person-text {
+        padding: 15px 0px 0px 15px;
+    }
+    .person-name {
+        font-size: 18px;
+        color: #fff;
+    }
+    .person-title {
+        color: $red;
+        font-size: 12px;
+    }
+
+  
+    &__title {
+        margin: 40px 0px 20px 0px;
+    }
+
+    &__link {
+        position: relative;
+        padding: 0px 0px 0px 28px;
+        margin: 0px 0px 20px 0px;
+        cursor: pointer;
+        &:hover {
+            color: $red;
+        }
+
+        &:before {
+            position: absolute;
+            font-family: "icomoon";
+
+            font-size: 15px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    // ================
+    .gear {
+        &:before {
+            content: "\e994";
+        }
+    }
+    .heart {
+        &:before {
+            content: "\f004";
+        }
+    }
+    .download {
+        &:before {
+            content: "\e9c7";
+        }
+    }
+    .note {
+        width: 270px;
+        &:before {
+            content: "\e900";
+        }
+        &:after {
+            content: "\f105";
+            position: absolute;
+            font-family: "icomoon";
+            right: 145px;
+            transform: rotate(90deg);
+
+            transition: all .3s;
+
+
+        }
+        &.active:after{
+            transform: rotate(0deg);
+            transition: all .3s;
+        }
+
+        // .note__list
+
+        &__list {
+            margin: 0px 0px 0px 40px;
+        }
+
+        // .note__link
+
+        &__link {
+            width: 145px;
+            margin: 0px 80px 15px 0px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px 0px 0px;
+
+            span {
+                position: relative;
+                color: $red;
+                cursor: pointer;
+                &:before {
+                    content: "\f01d";
+                    font-family: "icomoon";
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-40%);
+                    right: -20px;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+    .headphone {
+        &:before {
+            content: "\e910";
+        }
+    }
+    .star {
+        &:before {
+            content: "\e9d9";
+        }
+    }
+    .hand {
+        &:before {
+            content: "\f164";
+        }
+    }
+    .music {
+        &:before {
+            content: "\e911";
+        }
+    }
+  
+    .player-image {
+        width: 215px;
+        margin: 35px auto 15px;
+    }
+    .song-name {
+        text-align: center;
+        margin: 0px 0px 5px 0px;
+    }
+    .singer-name {
+        text-align: center;
+        font-size: 12px;
+    }
+    .player-buttons {
+        margin: 40px 0px 0px 0px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        cursor: pointer;
+
+        .heart-bottom {
+            position: relative;
+            &:hover {
+                color: $red;
+            }
+            &:before {
+                content: "\f004";
+                font-family: "icomoon";
+            }
+        }
+        .random {
+            position: relative;
+            &:hover {
+                color: $red;
+            }
+            &:before {
+                content: "\ea30";
+
+                font-family: "icomoon";
+            }
+        }
+        .circulation {
+            position: relative;
+            &:hover {
+                color: $red;
+            }
+            &:before {
+                content: "\ea2d";
+
+                font-family: "icomoon";
+            }
+        }
+        .sound {
+            position: relative;
+            &:hover {
+                color: $red;
+            }
+            &:before {
+                content: "\ea26";
+
+                font-family: "icomoon";
+            }
+        }
+    }
+    #file {
+        position: relative;
+        width: 100%;
+        height: 3px;
+        margin: 20px 0px 0px 0px;
+
+        &:before {
+            content: "1:00";
+            position: absolute;
+            font-size: 12px;
+            bottom: -15px;
+        }
+        &:after {
+            content: "3:17";
+            position: absolute;
+            font-size: 12px;
+            right: 0;
+            bottom: -15px;
+        }
+    }
+}

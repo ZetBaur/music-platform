@@ -1,0 +1,144 @@
+@media (max-width: 1130px) {
+    .container {
+        max-width: 970px;
+    }
+    .header__logo {
+        flex: 0 0 150px;
+    }
+    .right-side {
+        padding: 0;
+        max-width: 620px;
+    }
+    .right-side .projector__body {
+        padding: 40px;
+    }
+    .right-side .projector__img {
+        width: 100%;
+    }
+}
+
+
+
+// ======================================
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+    .header__burger {
+        display: block;
+        cursor: pointer;
+    }
+    .header__list {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 150px;
+        padding: 0;
+        border: 0;
+        background-color: #49494b;
+        text-align: center;
+        z-index: 50;
+        &-item {
+            display: block;
+            margin: 0;
+            padding: 18px 0px;
+            border-bottom: 1px solid $grey;
+            border-top: 1px solid $grey;
+
+            &:before {
+                display: none;
+            }
+        }
+    }
+    .header__link {
+        display: block;
+        padding: 0;
+        &:hover {
+            color: $red;
+        }
+    }
+    .header__link.active {
+        border-bottom: none;
+        padding: 0px;
+    }
+
+    // ===================
+    .right-side {
+        padding: 0;
+        max-width: 400px;
+    }
+    .right-side .projector__body {
+        padding: 40px 40px 10px 40px;
+    }
+    .right-side .projector__img {
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+    }
+    .right-side .projector__player-left {
+        flex: 1 1 100%;
+        padding: 0;
+    }
+    .right-side .projector__player-right {
+        flex: 1 1 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .right-side .bottom-row__column {
+        flex: 0 1 100%;
+    }
+    .right-side .bottom-row__left {
+        padding: 20px 10px 10px 40px;
+        margin: 0px 0px 25px 0px;
+    }
+}
+
+// ======================================
+@media (max-width: 768px) {
+    .container {
+        max-width: none;
+    }
+    .left-side {
+        padding: 0 10px;
+        width: 100%;
+        margin:0px 0px 25px 0px;
+        
+    }
+    .content-body {
+        margin: 0;
+    }
+    .right-side {
+        padding: 0 10px;
+        width: 100%;
+        max-width: none;
+    }
+    .right-side .upper-slider {
+        margin: 0px 0px 50px 0px;
+    }
+    .right-side .projector__img {
+      display: none;
+    }
+}
+// ======================================
+@media (max-width: 320px) {
+    .left-side {
+        padding: 0 5px;
+       
+        
+    }
+    .right-side {
+        padding: 0 5px;
+       
+    }
+}
+// ======================================
+
+// ======================================
+
+// ======================================
+
+// ==========================================
+@media (min-width: 993px) {
+    .header__list {
+        display: flex !important;
+    }
+}
